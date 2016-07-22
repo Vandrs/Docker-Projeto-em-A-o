@@ -16,6 +16,8 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     libmcrypt-dev \
 	libxml2-dev \
+	zlib1g-dev \
+	libcurl3-dev \
     --no-install-recommends \
     && rm -r /var/lib/apt/lists/*
 
@@ -25,6 +27,13 @@ RUN docker-php-ext-install pdo_pgsql
 RUN docker-php-ext-install gd
 RUN docker-php-ext-install mbstring
 RUN docker-php-ext-install soap
+RUN docker-php-ext-install gettext
+RUN docker-php-ext-install zip
+RUN docker-php-ext-install curl
+
+RUN a2enmod rewrite
+RUN a2enmod headers
+
  
 RUN curl -s http://getcomposer.org/installer | php \
     && mv composer.phar /usr/local/bin/composer

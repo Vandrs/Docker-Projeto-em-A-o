@@ -2,3 +2,15 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Fri Jul 22 01:47:07.012226 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.23 configured -- resuming normal operations
 [Fri Jul 22 01:47:07.012263 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Fri Jul 22 01:49:19.430790 2016] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.101. Set the 'ServerName' directive globally to suppress this message
+[Fri Jul 22 01:53:40.358680 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.23 configured -- resuming normal operations
+[Fri Jul 22 01:53:40.358720 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Jul 22 02:10:50.941152 2016] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.101. Set the 'ServerName' directive globally to suppress this message
+[Fri Jul 22 02:15:52.978928 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.23 configured -- resuming normal operations
+[Fri Jul 22 02:15:52.978967 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Jul 22 02:21:59.715529 2016] [core:alert] [pid 11] [client 172.27.0.1:52578] /var/www/html/projetoAcao/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jul 22 02:27:01.194217 2016] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.101. Set the 'ServerName' directive globally to suppress this message
+[Fri Jul 22 02:28:51.208871 2016] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.23 configured -- resuming normal operations
+[Fri Jul 22 02:28:51.208910 2016] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
