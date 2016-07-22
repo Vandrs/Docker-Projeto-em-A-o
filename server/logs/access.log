@@ -1,0 +1,2 @@
+172.27.0.1 - - [22/Jul/2016:01:48:17 +0000] "GET / HTTP/1.1" 200 24131 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+172.27.0.1 - - [22/Jul/2016:01:48:18 +0000] "GET /favicon.ico HTTP/1.1" 404 503 "http://172.27.0.101/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
