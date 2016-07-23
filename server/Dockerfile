@@ -21,7 +21,8 @@ RUN apt-get update && apt-get install -y \
     --no-install-recommends \
     && rm -r /var/lib/apt/lists/*
 
-RUN docker-php-ext-install mcrypt 
+RUN docker-php-ext-install mcrypt
+RUN docker-php-ext-install mysql 
 RUN docker-php-ext-install pdo_mysql
 RUN docker-php-ext-install pdo_pgsql
 RUN docker-php-ext-install gd
